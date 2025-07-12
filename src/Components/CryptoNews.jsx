@@ -18,6 +18,7 @@ function CryptoNews() {
 
   return (
     <div>
+      {console.log("Lab 5")}
       <ul>
         {newsList && newsList.Data && newsList.Data.map((news) => (
           <li key={news.id}>
